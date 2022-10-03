@@ -1,0 +1,87 @@
+header {
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../images/bebida.jpg);
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    }
+    .titulo1{
+        text-align: center;
+        font-size: 36px;
+        color: white;
+        font-family: serif;
+        width: 780px;
+    }
+    #perfil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    }
+    body{
+        margin: 0px;
+    }
+    .texto{
+        width: 66.67%;
+    padding-left: 310px;  
+    }
+    .numero{
+        font-family: roboto Slabs;
+        color: rgba(0, 0, 0, 0.25);
+        font-size: 36px;    
+        font-style: bold;    
+    }
+    .titulobebida{  
+        font-family: roboto Slabs;  
+        color: rgb(51, 51, 51);
+        font-size: 36px;    
+        font-style: bold;
+        margin: 0px;    
+        padding-left: 40px;
+    }
+    #header h1 { 
+        display:inline; 
+    }
+    p{
+        font-family: Source Sans Pro, sans-serif;
+        font-size: 18px;    
+        color: rgb(51, 51, 51);
+        padding-left: 70px;
+        margin-top: 20px;    
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    
+    .recomendacion{
+        font-family: Source Sans Pro, sans-serif;
+        font-size: 18px;    
+        color: rgb(51, 51, 51);
+        padding-left: 70px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .image{
+        width: 80%;
+        padding-left: 190px;    
+        margin-bottom: 120px;
+    }
+    #foto{
+        background-image: url(../images/oscar.jpg);
+        background-size: cover;
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+        border: 1px solid white;
+        background-position: center;
+    }    
+    #datospersonales{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        color: rgb(51,51,51);
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
